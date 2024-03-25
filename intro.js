@@ -63,7 +63,7 @@ function intro() {
     list.forEach((clickList,i) => {
       clickList.addEventListener('click', () => {
         list.forEach(listAll=>{listAll.style.backgroundColor = `rgba(255,255,255,0)`});
-        document.getElementById('playControls').src = `/playList/${playObj[clickList.className]}.m4a`;
+        document.getElementById('playControls').src = `./playList/${playObj[clickList.className]}.m4a`;
         document.querySelector('.albumCover > img').src = `./introWebPhoto/앨범커버/${playObj[clickList.className]}.jpg`
         document.getElementById('plyContent').style.backgroundImage = `url('./introWebPhoto/playlist_img/playlist_bg/${playObj[clickList.className]}_bg.png')`
         clickList.style.backgroundColor = `rgba(255,255,255,0.7)`;

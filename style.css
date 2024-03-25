@@ -234,7 +234,7 @@ header>nav>ul>li>a:hover {
   margin-left: 40px;
   width: 70px;
   height: 70px;
-  background: url('/introWebPhoto/info_img.png');
+  background: url('./introWebPhoto/info_img.png');
   background-size: cover;
   border-radius: 50%;
 }
@@ -319,9 +319,10 @@ header>nav>ul>li>a:hover {
 
 .infoWrap>.rightBox>.introduceCont {
   display: none;
-  margin-left: 30px;
   font-size: 14px;
   color: #333;
+  width: 350px;
+  margin: 0 auto;
 }
 
 #introWrap>#introContainer>.photoContent {
@@ -453,6 +454,14 @@ header>nav>ul>li>a:hover {
 .abmContent>nav {
   border-bottom: 2px solid #dfdede;
   display: flex;
+}
+.abmContent>nav >p {
+  width: 300px;
+  height: 50px;
+  color: #8a8a8a;
+  font-size: 12px;
+  line-height: 50px;
+  padding-left: 20px;
 }
 
 .abmContent>.abmMain {
@@ -638,6 +647,9 @@ header>nav>ul>li>a:hover {
 .rightBox>.artistContent>.artistTxt >.artistTitle {
   height: 30px;
   margin: 15px 0 15px 0; 
+}
+.rightBox>.artistContent>.artistTxt > p{
+  padding-bottom: 10px;
 }
 .rightBox>.photoContent>.photoTxt >.photoTitle{
   margin: 15px 0 10px 0;
