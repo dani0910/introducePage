@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>자기소개 페이지</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./intro.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+  <header id="header" class="header">
+    <nav id="headerNav">
+      <ul>
+        <li>
+          <a href="#introWrap">Intro</a>
+        </li>
+        <li>
+          <a href="#aboutMeWrap">About me</a>
+        </li>
+        <li>
+          <a href="#playlistWrap">Playlist</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+    <section id="introWrap">
+      <div id="introContainer">
+        <div class="leftContent">
+          <h2 class="introTitle">Intro</h2>
+          <div class="infoContent">
+            <nav id="infoNav">
+              <ul>
+                <li class="closeBox"></li>
+                <li class="minimumBox"></li>
+                <li class="maximumBox"></li>
+              </ul>
+            </nav>
+            <div class="infoMain">
+              <div class="infoWrap">
+                <div class="leftBox">
+                  <button id="profileBtn" class="profileBtn introBtn">profile</button>
+                  <button id="introduceBtn" class="introduceBtn introBtn">introduce</button>
+                </div>
+                <div class="rightBox">
+                  <div class="profileContent introContent">
+                    <ul class="nameBox">
+                      <i class="nameIcon"></i>
+                      <li>
+                        <h3>이다은</h3>
+                        <p>Lee Daeun</p>
+                      </li>
+                    </ul>
+                    <ul class="etcBox">
+                      <li class="department">
+                        신소재공학부
+                        <span>기계금속재료학과</span></li>
+                      <li class="classOf">22학번</li>
+                      <li class="birthday">2003. 09. 10</li>
+                      <li class="crew">crew 1</li>
+                    </ul>
+                  </div>
+                  <div class="introduceCont introContent">
+                    멋쟁이사자 국민대 12기 이다은입니다!<br>신소재공학부 22학번이고 현재는 휴학생이랍니당 <br>더 많이 노력해서 좋은 모습 보여드리겠습니다<br>잘 부탁드려요 !
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <article class="photoContent">
+          <div class="photoHeader">
+            <img src="./icon_img/insta_icon6.png" alt="" class="more">
+          </div>
+          <img src="./introWebPhoto/intro_img.jpg" alt="">
+          <div class="photoFooter">
+            <div class="photoIcon">
+              <img class="heart" src="./icon_img/insta_icon5.png" alt="">
+              <img class="message" src="./icon_img/insta_icon3.png " alt="">
+              <img class="send" src="./icon_img/insta_icon2.png" alt="">
+            </div>
+            <img class="save" src="./icon_img/insta_icon4.png" alt="">
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="bgSection" class="bgSection1 bgSection"></section>
+    <section id="aboutMeWrap" class="aboutMeWrap bgSection">
+      <div class="abmContainer elmntContainer">
+        <h2 class="abmTitle elmntTitle">About me</h2>
+        <div class="abmContent elmntContent">
+          <nav class="abmNav elmntNav">
+            <ul>
+              <li class="closeBox"></li>
+              <li class="minimumBox"></li>
+              <li class="maximumBox"></li>
+            </ul>
+            <p>클릭해서 보기</p>
+          </nav>
+          <div class="abmMain">
+            <div class="abmWrap elmntWrap">
+              <div class="leftBox">
+                <div class="favoriteBtnBox">
+                  <p class="favoriteTitle">Favorite</p>
+                  <div class="favoriteBtns abmBtns">
+                    <button id="movieBtn" class="favoriteBtn abmBtn">movie</button>
+                    <button id="artistBtn" class="favoriteBtn abmBtn">artist</button>
+                  </div>
+                </div>
+                <div class="hobbyBtnBox">
+                  <p class="hobbyTitle">Hobby</p>
+                  <div class="hobbyBtns abmBtns">
+                    <button id="photoBtn" class="abmBtn">photo</button>
+                    <button id="shoppingBtn" class="abmBtn">shopping</button>
+                    <button id="webtoonBtn" class="abmBtn">webtoon</button>
+                  </div>
+                </div>
+              </div>
+              <div class="rightBox">
+                <article id="movieContent" class="movieContent rightBoxContent">
+                  <figure class="moviePhoto photoBox">
+                    <img src="./introWebPhoto/movieContent/이터널션샤인2 1.png" alt="">
+                    <img src="./introWebPhoto/movieContent/이터널션샤인6 1.png" alt="">
+                    <img src="./introWebPhoto/movieContent/이터널션샤인 3.png" alt="">
+                  </figure>
+                  <div class="movieTxt abmTxt">
+                    <div class="movieTitle abmTitle">
+                      <h3>Eternal Sunshine</h3>
+                      <p>이터널션샤인</p>
+                    </div>
+                    <p>우연히 보게된 영화인데<br>영화 색감이 너무 예뻐서 두번 세번 봤어요</p>
+                    <p>다들 꼭 보시길....</p>
+                  </div>
+                </article>
+
+                <article id="artistContent" class="artistContent rightBoxContent">
+                  <figure class="artistPhoto photoBox">
+                    <img src="./introWebPhoto/artistContent/artist.png" alt="">
+                  </figure>
+                  <div class="artistTxt abmTxt">
+                    <div class="artistTitle abmTitle">
+                      <h3>Post Malone, Han Sohee</h3>
+                    </div>
+                    <p>포스트말론 노래를 너무 좋아한답니다 <br>한소희는 그냥 이뻐서 좋아해요 ^^</p>
+                    <p>밑에 플레이리스트 소개글에 포스트말론 노래 넣어놨어요! 한번씩 들어주세여 ㅎㅎ</p>
+                  </div>
+                </article>
+
+                <article id="photoContent" class="photoContent rightBoxContent">
+                  <figure class="photoPhoto photoBox">
+                    <img src="./introWebPhoto/photoContent/photo_img.png" alt="">
+                  </figure>
+                  <div class="photoTxt abmTxt">
+                    <div class="photoTitle abmTitle">
+                      <h3>Photo</h3>
+                    </div>
+                    <p>사진 찍고 돌아다니는 거 좋아합니다!<br>인생사진 건져드릴 자신 있습니다</p>
+                  </div>
+                </article>
+
+                <article id="shoppingContent" class="shoppingContent rightBoxContent">
+                  <figure class="shoppingPhoto photoBox">
+                    <img src="./introWebPhoto/shoppingContent/shoppingContent_img.png" alt="">
+                  </figure>
+                  <div class="shoppingTxt abmTxt">
+                    <div class="shoppingTitle abmTitle">
+                      <h3>Shopping</h3>
+                    </div>
+                    <p>소소하게 옷 구경하는게 제 낙이에요<br>특히 모자를 좋아해서 모자 색깔별로 모으는게 취미입니다<br>소품샵 구경하는 것도 좋아해요</p>
+                  </div>
+                </article>
+
+                <article id="webtoonContent" class="webtoonContent rightBoxContent">
+                  <figure class="webtoonPhoto photoBox">
+                    <img src="./introWebPhoto/webtoonContent/webtoonContent_img.png" alt="">
+                  </figure>
+                  <div class="webtoonTxt abmTxt">
+                    <div class="webtoonTitle abmTitle">
+                      <h3>Webtoon</h3>
+                    </div>
+                    <p>웹툰 쿠키에만 10만원 쓰는 호구가 저에오 ^^<br>일년치 계산하면 50만원은 나오지 않을까..</p>
+                    <p>심심하면 웹툰 정주행하고 시간 보낸답니다<br>마루는 강쥐라는 웹툰 제일 좋아합니다</p>
+                  </div>
+                </article>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="bgSection" class="bgSection2 bgSection"></section>
+    <section id="playlistWrap" class="playlistWrap bgSection">
+      <div class="playlistContainer elmntContainer">
+        <h2 plyTitle elmntTitle>Playlist</h2>
+        <div id="plyContent" class="plyContent elmntContent">
+          <nav class="plyNav elmntNav">
+            <ul>
+              <li class="closeBox"></li>
+              <li class="minimumBox"></li>
+              <li class="maximumBox"></li>
+            </ul>
+            <p>클릭해서 재생</p>
+          </nav>
+          <div class="plyMain elmntMain">
+            <div class="plyWrap">
+              <div class="leftBox">
+                <div class="albumCover">
+                  <img src="./introWebPhoto/앨범커버/never_not.jpg" alt="">
+                  <form class="playBtns">
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                  </form>
+                </div>
+                <div class="record">
+                  <img src="./introWebPhoto/playlist_img/레코드판.png" alt="">
+                </div>
+                <audio src="" id="playControls" class="playControls" controls loop autoplay></audio>
+              </div>
+              <div class="rightBox">
+                <nav class="plyInnerBox">
+                  <p class="plyTitle">My favorite playlist</p>
+                  <ul class="plyList">
+                    <li class="neverNot">
+                      Never Not
+                      <p class="singer">Lauv</p>
+                    </li>
+                    <li class="stay">
+                      Stay
+                      <p class="singer">Post Malone</p>
+                    </li>
+                    <li class="iWishItWasMe">
+                      I Wish It Was Me
+                      <p class="singer">Etham</p>
+                    </li>
+                    <li class="sober">
+                      Sober (Feat. Ummet Ozcan)
+                      <p class="singer">효연 (HYO)</p>
+                    </li>
+                    <li class="run">
+                      RUN
+                      <p class="singer">그리즐리 (Grizzly), 청하</p>
+                    </li>
+                    <li class="asItWas">
+                      As It Was
+                      <p class="singer">Harry Styles</p>
+                    </li>
+                    <li class="high">
+                      High
+                      <p class="singer">5 seconds of Summer</p>
+                    </li>
+                    <li class="finale">
+                      Finale
+                      <p class="singer">eill</p>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
