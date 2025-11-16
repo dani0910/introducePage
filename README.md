@@ -17,12 +17,12 @@
 스크롤 이동에 따라 자연스럽게 화면이 전환되고, 배경 그라데이션이 변하면서
 부드러운 인터랙션을 제공합니다.
 
-HTML/CSS + 간단한 바닐라 JS 코드만으로도 충분히 감성 있는 자기소개 페이지를 만들어냈습니다
 
 
+
+<img width="1918" height="858" alt="Image" src="https://github.com/user-attachments/assets/3bdc21dd-1c2a-47d1-95fa-0cdbea2fb1ca" />
 <img width="1917" height="858" alt="Image" src="https://github.com/user-attachments/assets/2cc2cac4-0915-48aa-a676-657ff2740105" />
 <img width="1917" height="845" alt="Image" src="https://github.com/user-attachments/assets/3591a1de-4a5a-43f1-ad47-4c1c9d544822" />
-<img width="1918" height="858" alt="Image" src="https://github.com/user-attachments/assets/3bdc21dd-1c2a-47d1-95fa-0cdbea2fb1ca" />
 
 <br/>
 
