@@ -24,7 +24,8 @@ HTML/CSS + 간단한 바닐라 JS 코드만으로도 충분히 감성 있는 자
 ![About](assets/about.png)
 ![Playlist](assets/playlist.png)
 
-<br>
+<br/>
+
 ## 🎨 주요 기능
 1️⃣ GSAP 스크롤 연동 애니메이션
 
