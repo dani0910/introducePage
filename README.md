@@ -3,7 +3,7 @@
 스크롤 애니메이션 + GSAP + 간단한 오디오 플레이어 기능을 담은 개인 웹 페이지입니다.
 <br>
 
-##✨ 프로젝트 소개
+## ✨ 프로젝트 소개
 
 이 프로젝트는 바닐라 JavaScript, HTML/CSS, GSAP(GreenSock Animation Platform) 을 사용하여 만든
 간단한 자기소개/포트폴리오 페이지입니다.
@@ -20,7 +20,7 @@ HTML/CSS + 간단한 바닐라 JS 코드만으로도 충분히 감성 있는 자
 ![Playlist](assets/playlist.png)
 
 <br>
-##🎨 주요 기능
+## 🎨 주요 기능
 1️⃣ GSAP 스크롤 연동 애니메이션
 
 스크롤을 내릴 때 섹션이 부드럽게 슬라이드되며 등장
@@ -60,7 +60,7 @@ SPA는 아니지만, SPA 느낌을 주는 전환효과 적용
 
 <br>
 
-##🛠️ 기술 스택
+## 🛠️ 기술 스택
 HTML / CSS / JavaScript (Vanilla)
 GSAP (ScrollTrigger) – 스크롤 애니메이션
 GitHub Pages – 정적 사이트 배포
