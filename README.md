@@ -3,6 +3,11 @@
 스크롤 애니메이션 + GSAP + 간단한 오디오 플레이어 기능을 담은 개인 웹 페이지입니다.
 <br>
 
+## 🌐 배포 링크
+👉 https://dani0910.github.io/introducePage/intro.html
+
+<br/>
+
 ## ✨ 프로젝트 소개
 
 이 프로젝트는 바닐라 JavaScript, HTML/CSS, GSAP(GreenSock Animation Platform) 을 사용하여 만든
